@@ -36,8 +36,9 @@ const Contact = () => {
             </div>
             <div className="contact-list">
               <ul>
-                <li>
-                  <img src={person} />
+                <li className="row">
+                 <img src={person} />
+                 
                   <div className="card-body">
                     <span className="card-title">Name</span>
                     <br />
@@ -46,7 +47,7 @@ const Contact = () => {
                     </span>
                   </div>
                 </li>
-                <li>
+                <li className="row">
                   <img src={location} />
                   <div className="card-body">
                     <span className="card-title">Address</span>
@@ -56,7 +57,7 @@ const Contact = () => {
                     </span>
                   </div>
                 </li>
-                <li>
+                <li className="row">
                   <img src={email} />
                   <div className="card-body">
                     <span className="card-title">Email</span>
@@ -66,7 +67,7 @@ const Contact = () => {
                     </span>
                   </div>
                 </li>
-                <li>
+                <li className="row">
                   <img src={linkedin} />
                   <div className="card-body">
                     <span className="card-title">Linkedin</span>
@@ -76,7 +77,7 @@ const Contact = () => {
                     </span>
                   </div>
                 </li>
-                <li>
+                <li className="row">
                   <img src={github} />
                   <div className="card-body">
                     <span className="card-title">Github</span>

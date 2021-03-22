@@ -1,13 +1,13 @@
 // import React from "react";
 import WebPage from "../../logo/WebPage.png";
 import Alpenlite from "../../logo/Untitled.png";
-// import KpK from "../../logo/KpK.jpg";
 import EnRoute from "../../logo/EnRoute.png";
 import web_Page from "../../logo/web_Page.png";
 import Getaquote from "../../logo/Get a quote.png";
 import Password_generator from "../../logo/Password_generator.png";
 import Scandinavian from "../../logo/Scandinavian.png";
 import portfolio from "../../logo/portfolio.png"
+import bookfolio from "../../logo/bookfolio.png"
 
 export const data_projects = [
 
@@ -25,9 +25,15 @@ export const data_projects = [
     github_url: "https://github.com/AyselHuseynovaa/Final-project",
   },
   {
+    name: "Bookfolio",
+    image: bookfolio,
+    deployed_url: "https://wonderful-visvesvaraya-d23a22.netlify.app",
+    github_url: "https://github.com/AyselHuseynovaa/Bookfolio",
+  },
+  {
     name: "WebPage",
     image: WebPage,
-    deployed_url: "http://127.0.0.1:5500/webpage.html",
+    deployed_url: "https://blissful-curie-116cdd.netlify.app/",
     github_url: "https://github.com/AyselHuseynovaa/WebPage",
   },
   {
@@ -63,4 +69,3 @@ export const data_projects = [
     github_url: "https://github.com/AyselHuseynovaa/Final-task2",
   },
 ];
-// export const data=[]
