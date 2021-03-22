@@ -15,7 +15,7 @@ export const data_projects = [
   {
     name: "Portfolio",
     image: portfolio,
-    deployed_url: "http://127.0.0.1:5500/index.html",
+    deployed_url: "https://the-awesome-ayselhuseynovaa-site.netlify.app/",
     github_url: "https://github.com/AyselHuseynovaa/Final-project",
   },
   {
